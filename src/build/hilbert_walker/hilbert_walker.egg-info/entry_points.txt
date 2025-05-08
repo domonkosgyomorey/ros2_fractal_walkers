@@ -1,0 +1,3 @@
+[console_scripts]
+walker = hilbert_walker.walker:main
+

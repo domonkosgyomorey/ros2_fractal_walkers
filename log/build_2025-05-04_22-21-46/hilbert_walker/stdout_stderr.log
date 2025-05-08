@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/hilbert_walker/hilbert_walker.egg-info
+writing ../../build/hilbert_walker/hilbert_walker.egg-info/PKG-INFO
+writing dependency_links to ../../build/hilbert_walker/hilbert_walker.egg-info/dependency_links.txt
+writing entry points to ../../build/hilbert_walker/hilbert_walker.egg-info/entry_points.txt
+writing requirements to ../../build/hilbert_walker/hilbert_walker.egg-info/requires.txt
+writing top-level names to ../../build/hilbert_walker/hilbert_walker.egg-info/top_level.txt
+writing manifest file '../../build/hilbert_walker/hilbert_walker.egg-info/SOURCES.txt'
+reading manifest file '../../build/hilbert_walker/hilbert_walker.egg-info/SOURCES.txt'
+writing manifest file '../../build/hilbert_walker/hilbert_walker.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dgy/fractal_walker_ws/build/hilbert_walker/build
+creating /home/dgy/fractal_walker_ws/build/hilbert_walker/build/lib
+creating /home/dgy/fractal_walker_ws/build/hilbert_walker/build/lib/hilbert_walker
+copying hilbert_walker/__init__.py -> /home/dgy/fractal_walker_ws/build/hilbert_walker/build/lib/hilbert_walker
+copying hilbert_walker/walker.py -> /home/dgy/fractal_walker_ws/build/hilbert_walker/build/lib/hilbert_walker
+running install
+running install_lib
+creating /home/dgy/fractal_walker_ws/install/hilbert_walker/lib/python3.10/site-packages/hilbert_walker
+copying /home/dgy/fractal_walker_ws/build/hilbert_walker/build/lib/hilbert_walker/__init__.py -> /home/dgy/fractal_walker_ws/install/hilbert_walker/lib/python3.10/site-packages/hilbert_walker
+copying /home/dgy/fractal_walker_ws/build/hilbert_walker/build/lib/hilbert_walker/walker.py -> /home/dgy/fractal_walker_ws/install/hilbert_walker/lib/python3.10/site-packages/hilbert_walker
+byte-compiling /home/dgy/fractal_walker_ws/install/hilbert_walker/lib/python3.10/site-packages/hilbert_walker/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/dgy/fractal_walker_ws/install/hilbert_walker/lib/python3.10/site-packages/hilbert_walker/walker.py to walker.cpython-310.pyc
+running install_data
+creating /home/dgy/fractal_walker_ws/install/hilbert_walker/share/ament_index
+creating /home/dgy/fractal_walker_ws/install/hilbert_walker/share/ament_index/resource_index
+creating /home/dgy/fractal_walker_ws/install/hilbert_walker/share/ament_index/resource_index/packages
+copying resource/hilbert_walker -> /home/dgy/fractal_walker_ws/install/hilbert_walker/share/ament_index/resource_index/packages
+copying package.xml -> /home/dgy/fractal_walker_ws/install/hilbert_walker/share/hilbert_walker
+creating /home/dgy/fractal_walker_ws/install/hilbert_walker/share/hilbert_walker/launch
+copying launch/walker_launch.py -> /home/dgy/fractal_walker_ws/install/hilbert_walker/share/hilbert_walker/launch
+running install_egg_info
+Copying ../../build/hilbert_walker/hilbert_walker.egg-info to /home/dgy/fractal_walker_ws/install/hilbert_walker/lib/python3.10/site-packages/hilbert_walker-0.0.0-py3.10.egg-info
+running install_scripts
+Installing walker script to /home/dgy/fractal_walker_ws/install/hilbert_walker/lib/hilbert_walker
+writing list of installed files to '/home/dgy/fractal_walker_ws/build/hilbert_walker/install.log'

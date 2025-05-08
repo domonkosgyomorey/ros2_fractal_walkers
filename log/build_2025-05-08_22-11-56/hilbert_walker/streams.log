@@ -1,0 +1,24 @@
+[0.462s] Invoking command in '/home/dgy/fractal_walker_ws/src/hilbert_walker': PYTHONPATH=/home/dgy/fractal_walker_ws/build/hilbert_walker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dgy/fractal_walker_ws/install/hilbert_walker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hilbert_walker build --build-base /home/dgy/fractal_walker_ws/build/hilbert_walker/build install --record /home/dgy/fractal_walker_ws/build/hilbert_walker/install.log --single-version-externally-managed install_data
+[0.640s] running egg_info
+[0.641s] writing ../../build/hilbert_walker/hilbert_walker.egg-info/PKG-INFO
+[0.641s] writing dependency_links to ../../build/hilbert_walker/hilbert_walker.egg-info/dependency_links.txt
+[0.641s] writing entry points to ../../build/hilbert_walker/hilbert_walker.egg-info/entry_points.txt
+[0.641s] writing requirements to ../../build/hilbert_walker/hilbert_walker.egg-info/requires.txt
+[0.641s] writing top-level names to ../../build/hilbert_walker/hilbert_walker.egg-info/top_level.txt
+[0.643s] reading manifest file '../../build/hilbert_walker/hilbert_walker.egg-info/SOURCES.txt'
+[0.643s] writing manifest file '../../build/hilbert_walker/hilbert_walker.egg-info/SOURCES.txt'
+[0.643s] running build
+[0.643s] running build_py
+[0.643s] copying hilbert_walker/walker.py -> /home/dgy/fractal_walker_ws/build/hilbert_walker/build/lib/hilbert_walker
+[0.643s] running install
+[0.644s] running install_lib
+[0.644s] copying /home/dgy/fractal_walker_ws/build/hilbert_walker/build/lib/hilbert_walker/walker.py -> /home/dgy/fractal_walker_ws/install/hilbert_walker/lib/python3.10/site-packages/hilbert_walker
+[0.644s] byte-compiling /home/dgy/fractal_walker_ws/install/hilbert_walker/lib/python3.10/site-packages/hilbert_walker/walker.py to walker.cpython-310.pyc
+[0.647s] running install_data
+[0.647s] running install_egg_info
+[0.650s] removing '/home/dgy/fractal_walker_ws/install/hilbert_walker/lib/python3.10/site-packages/hilbert_walker-0.0.0-py3.10.egg-info' (and everything under it)
+[0.651s] Copying ../../build/hilbert_walker/hilbert_walker.egg-info to /home/dgy/fractal_walker_ws/install/hilbert_walker/lib/python3.10/site-packages/hilbert_walker-0.0.0-py3.10.egg-info
+[0.652s] running install_scripts
+[0.666s] Installing walker script to /home/dgy/fractal_walker_ws/install/hilbert_walker/lib/hilbert_walker
+[0.669s] writing list of installed files to '/home/dgy/fractal_walker_ws/build/hilbert_walker/install.log'
+[0.695s] Invoked command in '/home/dgy/fractal_walker_ws/src/hilbert_walker' returned '0': PYTHONPATH=/home/dgy/fractal_walker_ws/build/hilbert_walker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dgy/fractal_walker_ws/install/hilbert_walker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hilbert_walker build --build-base /home/dgy/fractal_walker_ws/build/hilbert_walker/build install --record /home/dgy/fractal_walker_ws/build/hilbert_walker/install.log --single-version-externally-managed install_data
