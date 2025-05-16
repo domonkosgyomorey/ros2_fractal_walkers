@@ -77,7 +77,18 @@ class FractalWalker(Node):
         self.depth = depth
         self.max_depth = max_depth
         raw_points = hilbert_curve(depth)
-        self.path = normalize_and_center(raw_points)
+        points = [raw_points[0]]
+        for i in range(1, len(raw_points)-1):
+            before = raw_points[i-1]
+            now = raw_points[i]
+            after = raw_points[i+1]
+
+            if before[0] == after[0] or before[1] == after[1]:
+                continue
+            points.append(now)
+        points.append(raw_points[-1])
+
+        self.path = normalize_and_center(points)
 
         self.target_index = 0
         self.finished = False
